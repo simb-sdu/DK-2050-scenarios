@@ -65,12 +65,12 @@ production pathways:
       exists in original database: True
       regionalize: True
 
-  DH residual industrial: #TODO make empty inventory
+  DH residual industrial:
     production volume:
       variable: production|district heat|Residual industrial heat
     ecoinvent alias:
-      name:
-      reference product:
+      name: excess industrial heat
+      reference product: heat, district or industrial, other than natural gas
       exists in original database: False
 
   DH wood:
@@ -91,12 +91,12 @@ production pathways:
       exists in original database: True
       regionalize: True
 
-  DH excess fuel factories: #TODO make empty inventory
+  DH excess fuel factories:
     production volume:
       variable: production|district heat|Excess from fuels
     ecoinvent alias:
-      name:
-      reference product:
+      name: excess industrial heat
+      reference product: heat, district or industrial, other than natural gas
       exists in original database: False
 
 
