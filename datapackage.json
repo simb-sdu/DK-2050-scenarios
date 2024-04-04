@@ -24,24 +24,6 @@
                 "model": "image",
                 "pathway": "SSP2-Base"
             }
-        ],
-        "Biomass": [
-            {
-                "model": "image",
-                "pathway": "SSP2-Base"
-            }
-        ],
-        "Bio+": [
-            {
-                "model": "image",
-                "pathway": "SSP2-Base"
-            }
-        ],
-        "Fossil": [
-            {
-                "model": "image",
-                "pathway": "SSP2-Base"
-            }
         ]
     },
     "licenses": [{
