@@ -1,6 +1,6 @@
 {
     "profile": "data-package",
-    "name": "future DK",
+    "name": "dk-2050-scenarios",
     "title": "future DK",
     "description": "Implementation of Danish future scenarios",
     "version": "0.0.1",
@@ -23,19 +23,19 @@
             {
                 "model": "image",
                 "pathway": "SSP2-Base"
-            },
+            }
         ],
         "Biomass": [
             {
                 "model": "image",
                 "pathway": "SSP2-Base"
-            },
-            {
+            }
+        ],
         "Bio+": [
             {
                 "model": "image",
                 "pathway": "SSP2-Base"
-            },
+            }
         ],
         "Fossil": [
             {
@@ -98,7 +98,7 @@
                         "name": "2050",
                         "type": "number",
                         "format": "default"
-                    },
+                    }
                 ],
                 "missingValues": [
                     ""
@@ -106,7 +106,7 @@
             }
         },
         {
-            "path": "inventories/lci-EP2050.csv",
+            "path": "inventories/lci-EP2050.xlsx",
             "profile": "data-resource",
             "name": "inventories",
             "format": "csv",

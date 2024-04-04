@@ -101,14 +101,14 @@ production pathways:
 
 
 
-  district heat:
-    production volume:
-      variable:
-    ecoinvent alias:
-      name: market for district heat, future
-      reference product: district heat
-      exists in original database: False
-      new dataset: True
+#  district heat:
+#    production volume:
+#      variable: #TODO define total district heat use in DK
+#    ecoinvent alias:
+#      name: market for district heat, future
+#      reference product: district heat
+#      exists in original database: False
+#      new dataset: True
 
 markets:
 - name: market for district heat, future
