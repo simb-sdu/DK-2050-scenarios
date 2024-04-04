@@ -42,7 +42,7 @@ production pathways:
     production volume:
       variable: production|district heat|heat pumps
     ecoinvent alias:
-      name: heat from high temperature heat pump, 250 kW
+      name: heat from high temperature heat pump, 250 kw
       reference product: heat, district or industrial, other than natural gas
       exists in original database: False
       regionalize: True
