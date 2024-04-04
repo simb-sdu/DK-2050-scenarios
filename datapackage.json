@@ -21,7 +21,7 @@
     "scenarios": {
         "Wind": [
             {
-                "model": "remind",
+                "model": "image",
                 "pathway": "SSP2-Base"
             }
         ]
