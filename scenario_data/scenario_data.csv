@@ -1,20 +1,20 @@
 model,pathway,scenario,region,variables,unit,2035,2050
-image,SSP2-Base,Wind,DK,production|individual heat|solar heat,PJ,2.5,5
-image,SSP2-Base,Wind,DK,production|individual heat|air heat pump,PJ,12.6,3.9564
-image,SSP2-Base,Wind,DK,production|individual heat|ground heat pump,PJ,37.9215,54.657
-image,SSP2-Base,Wind,DK,production|individual heat|biomass furnace,PJ,25.17048,0.1008
-image,SSP2-Base,Wind,DK,production|individual heat|sum,PJ,78.19198,63.7142
-image,SSP2-Base,Wind,DK,production|district heat|Woodchips CHP,PJ,0,0
-image,SSP2-Base,Wind,DK,production|district heat|Gas CHP,PJ,10.24488,4.87728
-image,SSP2-Base,Wind,DK,production|district heat|Waste CHP,PJ,27.379944,29.4804
-image,SSP2-Base,Wind,DK,production|district heat|Biomass,PJ,21.4760484,0
-image,SSP2-Base,Wind,DK,production|district heat|heat pumps,PJ,11.18664,17.82054
-image,SSP2-Base,Wind,DK,production|district heat|Geothermal,PJ,4.75236,4.19004
-image,SSP2-Base,Wind,DK,production|district heat|Solar heat,PJ,3.5,7
-image,SSP2-Base,Wind,DK,production|district heat|Residual industrial heat,PJ,4.7,4.7
-image,SSP2-Base,Wind,DK,production|district heat|Wood boiler,PJ,0,0
-image,SSP2-Base,Wind,DK,production|district heat|Straw boiler,PJ,22.19868,7.5582
-image,SSP2-Base,Wind,DK,production|district heat|Excess from fuels,PJ,0,0.0032472
-image,SSP2-Base,Wind,DK,production|district heat|District heat use,PJ,-0.0199728,-0.0217872
-image,SSP2-Base,Wind,DK,lossess|district heat|distribution losses,1/%,5,5
-image,SSP2-Base,Wind,DK,lossess|electricity|distribution losses,%,1.42857142857143,1.42857142857143
+remind,SSP2-Base,Wind,DK,production|individual heat|solar heat,PJ,2.5,5
+remind,SSP2-Base,Wind,DK,production|individual heat|air heat pump,PJ,12.6,3.9564
+remind,SSP2-Base,Wind,DK,production|individual heat|ground heat pump,PJ,37.9215,54.657
+remind,SSP2-Base,Wind,DK,production|individual heat|biomass furnace,PJ,25.17048,0.1008
+remind,SSP2-Base,Wind,DK,production|individual heat|sum,PJ,78.19198,63.7142
+remind,SSP2-Base,Wind,DK,production|district heat|Woodchips CHP,PJ,0,0
+remind,SSP2-Base,Wind,DK,production|district heat|Gas CHP,PJ,10.24488,4.87728
+remind,SSP2-Base,Wind,DK,production|district heat|Waste CHP,PJ,27.379944,29.4804
+remind,SSP2-Base,Wind,DK,production|district heat|Biomass,PJ,21.4760484,0
+remind,SSP2-Base,Wind,DK,production|district heat|heat pumps,PJ,11.18664,17.82054
+remind,SSP2-Base,Wind,DK,production|district heat|Geothermal,PJ,4.75236,4.19004
+remind,SSP2-Base,Wind,DK,production|district heat|Solar heat,PJ,3.5,7
+remind,SSP2-Base,Wind,DK,production|district heat|Residual industrial heat,PJ,4.7,4.7
+remind,SSP2-Base,Wind,DK,production|district heat|Wood boiler,PJ,0,0
+remind,SSP2-Base,Wind,DK,production|district heat|Straw boiler,PJ,22.19868,7.5582
+remind,SSP2-Base,Wind,DK,production|district heat|Excess from fuels,PJ,0,0.0032472
+remind,SSP2-Base,Wind,DK,production|district heat|District heat use,PJ,-0.0199728,-0.0217872
+remind,SSP2-Base,Wind,DK,lossess|district heat|distribution losses,1/%,5,5
+remind,SSP2-Base,Wind,DK,lossess|electricity|distribution losses,%,1.42857142857143,1.42857142857143
