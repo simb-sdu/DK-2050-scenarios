@@ -1,5 +1,5 @@
 2035 and 2050 based on energy scenarios from the danish energy agency.
-[1] gives detailed information of fuel types used for heat (and electricity) production, however the total consumption is given in capacities (ME) and not in energy (PJ).
+[1] gives detailed information of fuel types used for heat (and electricity) production, however the total consumption is given in capacities (MW) and not in energy (PJ).
 A related study [2] gives electricity and districtheat use in PJ, and is based on the same data, hence data form the two sources are combined.
 As [2] gives no information on PJ used of individual heating, and [1] only gives the capacity, we assume the following proxy to determine PJ of individual heating: capacity_DH / energy_DH = capacity_IH / energy_IH. i.e., we assume the same ratio between capacity and energy consumption, and isolate the formula to determine energy of individual heating.
 

@@ -173,7 +173,7 @@ production pathways:
       exists in original database: False
       new dataset: True
 
-  electricity: #TODO ensure that definitions are correct to get data from premise database
+  electricity:
     production volume:
       variable: consumption|electricity|residential electricity use
     ecoinvent alias:
@@ -181,7 +181,7 @@ production pathways:
       reference product: electricity, low voltage
       exists in original database: True
       #new dataset: True
-      ratio: 0.27778 #ratio to convert from kWh to MJ #TODO double check for correct conversion
+      ratio: 0.27778 #ratio to convert from kWh to MJ #conversion works correct
 
 markets:
 - name: market for district heat, future
