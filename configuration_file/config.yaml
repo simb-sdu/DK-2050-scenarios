@@ -161,7 +161,7 @@ production pathways:
     ecoinvent alias:
       name: market for electricity, low voltage
       reference product: electricity, low voltage
-      exists in original database: False
+      exists in original database: True
       #new dataset: True
       ratio: 0.27778 #ratio to convert from kWh to MJ #TODO double check for correct conversion
 
