@@ -101,14 +101,69 @@ production pathways:
 
 
 
-#  district heat:
-#    production volume:
-#      variable: #TODO define total district heat use in DK
-#    ecoinvent alias:
-#      name: market for district heat, future
-#      reference product: district heat
-#      exists in original database: False
-#      new dataset: True
+  biomass:
+    production volume:
+      variable: production|individual heat|biomass furnace
+    ecoinvent alias:
+      name: heat production, softwood chips from forest, at furnace 50kW
+      reference product: heat, central or small-scale, other than natural gas
+      exists in original database: True
+      regionalize: True
+
+  groundheat:
+    production volume:
+      variable: production|individual heat|ground heat pump
+    ecoinvent alias:
+      name: heat production, borehole heat exchanger, brine-water heat pump 10kW
+      reference product: heat, brine-water heat pump 10kW
+      exists in original database: True
+      regionalize: True
+
+  solar:
+    production volume:
+      variable: production|individual heat|solar heat
+    ecoinvent alias:
+      name: operation, solar collector system, Cu flat plate collector, one-family house, for hot water
+      reference product: solar collector system, Cu flat plate collector, one-family house, hot water
+      exists in original database: True
+      regionalize: True
+
+  heatpump:
+    production volume:
+      variable: production|individual heat|air heat pump
+    ecoinvent alias:
+      name: heat production, air-water heat pump 10kW
+      reference product: heat, air-water heat pump 10kW
+      exists in original database: True
+      regionalize: True
+
+  district heat:
+    production volume:
+      variable: consumption|district heat|District heat use
+    ecoinvent alias:
+      name: market for district heat, future
+      reference product: district heat
+      exists in original database: False
+      new dataset: True
+
+  individual heat: #TODO define market
+    production volume:
+      variable: consumption|individual heat|individual heat use
+    ecoinvent alias:
+      name: market for individual heat, future
+      reference product: individual heat
+      exists in original database: False
+      new dataset: True
+
+  electricity: #TODO ensure that definitions are correct to get data from premise database
+    production volume:
+      variable: consumption|electricity|residential electricity use
+    ecoinvent alias:
+      name: market for electricity, low voltage
+      reference product: electricity, low voltage
+      exists in original database: False
+      #new dataset: True
+      ratio: 0.27778 #ratio to convert from kWh to MJ #TODO double check for correct conversion
 
 markets:
 - name: market for district heat, future
@@ -138,3 +193,26 @@ markets:
         includes:
            technosphere:
               - name: market for district heat, future #efficiency only applied to this loss (input of itself)
+
+
+- name: market for individual heat, future
+  reference product: individual heat
+  unit: megajoule
+  includes:
+    - biomass
+    - groundheat
+    - solar
+    - heatpump
+  except regions:
+    - World
+
+- name: market for residential energy, future
+  reference product: residential energy
+  unit: megajoule
+  includes:
+    - district heat
+    - individual heat
+    - electricity
+
+  except regions:
+    - World
