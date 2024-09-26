@@ -124,7 +124,7 @@ production pathways:
       variable: production|individual heat|solar heat
     ecoinvent alias:
       name: operation, solar collector system, Cu flat plate collector, one-family house, for hot water
-      reference product: solar collector system, Cu flat plate collector, one-family house, hot water
+      reference product: heat, central or small-scale, other than natural gas
       exists in original database: True
       regionalize: True
 
