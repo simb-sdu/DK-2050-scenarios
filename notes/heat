@@ -11,7 +11,7 @@ heat from waste and residuals asumed burden-free in accordance with the cut-off 
 infrastructure (isolated heat pipes) was not included in ecoinvent, and is hence not included in our assumptions.
 district heat distribution losses assumed constant from 2020 (distribution 20% loss)
 
-
+a tinyhouse version of individual heat and residential energy mix were also made, based on the assumption that tiny houses will not be connected to district heat or groundheat (borehole). It is also assumed that biomass will be a woodstove, compared to the wood chip furnace in the national mix of individual heating.
 
 [1] https://ens.dk/service/fremskrivninger-analyser-modeller/scenarieanalysen
 [2] https://ens.dk/service/fremskrivninger-analyser-modeller/analyseforudsaetninger-til-energinet

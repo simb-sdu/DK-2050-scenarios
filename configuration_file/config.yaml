@@ -114,7 +114,7 @@ production pathways:
     production volume:
       variable: production|individual heat|biomass furnace
     ecoinvent alias:
-      name: heat production, softwood chips from forest, at furnace 50kW
+      name: heat production, mixed logs, at wood heater 6kW
       reference product: heat, central or small-scale, other than natural gas
       exists in original database: True
       regionalize: True
@@ -228,8 +228,7 @@ markets:
   reference product: individual heat
   unit: megajoule
   includes:
-    - biomass chips
-    - groundheat
+    - biomass stove
     - solar
     - heatpump
   except regions:
