@@ -17,6 +17,6 @@ remind,SSP2-Base,Wind,DK,production|district heat|Straw boiler,PJ,22.19868,7.558
 remind,SSP2-Base,Wind,DK,production|district heat|Excess from fuels,PJ,0,0.0032472
 remind,SSP2-Base,Wind,DK,lossess|district heat|distribution losses,1/%,5,5
 remind,SSP2-Base,Wind,DK,lossess|electricity|distribution losses,%,1.42857142857143,1.42857142857143
-remind,SSP2-Base,Wind,DK,consumption|electricity|residential electricity use,Gwh,8394,7724.71 #TODO correct unit?
-remind,SSP2-Base,Wind,DK,consumption|individual heat|individual heat use,PJ,53.7,70.1 #TODO correct unit?
-remind,SSP2-Base,Wind,DK,consumption|district heat|District heat use,PJ,74.2,68.8 #TODO correct unit?
+remind,SSP2-Base,Wind,DK,consumption|electricity|residential electricity use,Gwh,8394,7724.71
+remind,SSP2-Base,Wind,DK,consumption|individual heat|individual heat use,PJ,53.7,70.1
+remind,SSP2-Base,Wind,DK,consumption|district heat|District heat use,PJ,74.2,68.8

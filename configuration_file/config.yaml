@@ -146,7 +146,7 @@ production pathways:
       exists in original database: False
       new dataset: True
 
-  individual heat: #TODO define market
+  individual heat:
     production volume:
       variable: consumption|individual heat|individual heat use
     ecoinvent alias:
