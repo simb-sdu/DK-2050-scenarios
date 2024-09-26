@@ -101,7 +101,16 @@ production pathways:
 
 
 
-  biomass:
+  biomass chips:
+    production volume:
+      variable: production|individual heat|biomass furnace
+    ecoinvent alias:
+      name: heat production, softwood chips from forest, at furnace 50kW
+      reference product: heat, central or small-scale, other than natural gas
+      exists in original database: True
+      regionalize: True
+
+  biomass stove:
     production volume:
       variable: production|individual heat|biomass furnace
     ecoinvent alias:
@@ -155,6 +164,15 @@ production pathways:
       exists in original database: False
       new dataset: True
 
+  individual heat, tiny house:
+    production volume:
+      variable: consumption|individual heat|individual heat use
+    ecoinvent alias:
+      name: market for individual heat, tiny house, future
+      reference product: individual heat
+      exists in original database: False
+      new dataset: True
+
   electricity: #TODO ensure that definitions are correct to get data from premise database
     production volume:
       variable: consumption|electricity|residential electricity use
@@ -199,7 +217,18 @@ markets:
   reference product: individual heat
   unit: megajoule
   includes:
-    - biomass
+    - biomass chips
+    - groundheat
+    - solar
+    - heatpump
+  except regions:
+    - World
+
+- name: market for individual heat, tiny house, future
+  reference product: individual heat
+  unit: megajoule
+  includes:
+    - biomass chips
     - groundheat
     - solar
     - heatpump
@@ -212,6 +241,16 @@ markets:
   includes:
     - district heat
     - individual heat
+    - electricity
+
+  except regions:
+    - World
+
+- name: market for residential energy, tiny house, future
+  reference product: residential energy
+  unit: megajoule
+  includes:
+    - individual heat, tiny house
     - electricity
 
   except regions:
