@@ -21,4 +21,119 @@ remind,SSP2-Base,Wind,DK,lossess|district heat|distribution losses,1/%,5,5
 remind,SSP2-Base,Wind,DK,lossess|electricity|distribution losses,%,1.42857142857143,1.42857142857143
 remind,SSP2-Base,Wind,DK,consumption|electricity|residential electricity use,kWh,8394000000,7724710000
 remind,SSP2-Base,Wind,DK,consumption|individual heat|individual heat use,MJ,53700000000,70100000000
-remind,SSP2-Base,Wind,DK,consumption|district heat|District heat use,MJ,74200000000,68800000000
+remind,SSP1-Base,Wind,DK,consumption|district heat|District heat use,MJ,74200000000,68800000000
+remind,SSP1-Base,Wind,DK,production|individual heat|solar heat,MJ,2500000000,5000000000
+remind,SSP1-Base,Wind,DK,production|individual heat|air heat pump,MJ,12600000000,3956400000
+remind,SSP1-Base,Wind,DK,production|individual heat|ground heat pump,MJ,37921500000,54657000000
+remind,SSP1-Base,Wind,DK,production|individual heat|biomass furnace,MJ,25170480000,26170480000
+remind,SSP1-Base,Wind,DK,production|individual heat|biomass stove,MJ,12585240000,13085240000
+remind,SSP1-Base,Wind,DK,production|individual heat|biomass pellets,MJ,12585240000,13085240000
+remind,SSP1-Base,Wind,DK,production|individual heat|sum,MJ,78191980000,63714200000
+remind,SSP1-Base,Wind,DK,production|district heat|Woodchips CHP,MJ,0,0
+remind,SSP1-Base,Wind,DK,production|district heat|Gas CHP,MJ,10244880000,4877280000
+remind,SSP1-Base,Wind,DK,production|district heat|Waste CHP,MJ,27379944000,29480400000
+remind,SSP1-Base,Wind,DK,production|district heat|Biomass,MJ,21476048400,0
+remind,SSP1-Base,Wind,DK,production|district heat|heat pumps,MJ,11186640000,17820540000
+remind,SSP1-Base,Wind,DK,production|district heat|Geothermal,MJ,4752360000,4190040000
+remind,SSP1-Base,Wind,DK,production|district heat|Solar heat,MJ,3500000000,7000000000
+remind,SSP1-Base,Wind,DK,production|district heat|Residual industrial heat,MJ,4700000000,4700000000
+remind,SSP1-Base,Wind,DK,production|district heat|Wood boiler,MJ,0,0
+remind,SSP1-Base,Wind,DK,production|district heat|Straw boiler,MJ,22198680000,7558200000
+remind,SSP1-Base,Wind,DK,production|district heat|Excess from fuels,MJ,0,3247200
+remind,SSP1-Base,Wind,DK,lossess|district heat|distribution losses,1/%,5,5
+remind,SSP1-Base,Wind,DK,lossess|electricity|distribution losses,%,1.42857142857143,1.42857142857143
+remind,SSP1-Base,Wind,DK,consumption|electricity|residential electricity use,kWh,8394000000,7724710000
+remind,SSP1-Base,Wind,DK,consumption|individual heat|individual heat use,MJ,53700000000,70100000000
+remind,SSP1-Base,Wind,DK,consumption|district heat|District heat use,MJ,74200000000,68800000000
+remind,SSP5-Base,Wind,DK,production|individual heat|solar heat,MJ,2500000000,5000000000
+remind,SSP5-Base,Wind,DK,production|individual heat|air heat pump,MJ,12600000000,3956400000
+remind,SSP5-Base,Wind,DK,production|individual heat|ground heat pump,MJ,37921500000,54657000000
+remind,SSP5-Base,Wind,DK,production|individual heat|biomass furnace,MJ,25170480000,26170480000
+remind,SSP5-Base,Wind,DK,production|individual heat|biomass stove,MJ,12585240000,13085240000
+remind,SSP5-Base,Wind,DK,production|individual heat|biomass pellets,MJ,12585240000,13085240000
+remind,SSP5-Base,Wind,DK,production|individual heat|sum,MJ,78191980000,63714200000
+remind,SSP5-Base,Wind,DK,production|district heat|Woodchips CHP,MJ,0,0
+remind,SSP5-Base,Wind,DK,production|district heat|Gas CHP,MJ,10244880000,4877280000
+remind,SSP5-Base,Wind,DK,production|district heat|Waste CHP,MJ,27379944000,29480400000
+remind,SSP5-Base,Wind,DK,production|district heat|Biomass,MJ,21476048400,0
+remind,SSP5-Base,Wind,DK,production|district heat|heat pumps,MJ,11186640000,17820540000
+remind,SSP5-Base,Wind,DK,production|district heat|Geothermal,MJ,4752360000,4190040000
+remind,SSP5-Base,Wind,DK,production|district heat|Solar heat,MJ,3500000000,7000000000
+remind,SSP5-Base,Wind,DK,production|district heat|Residual industrial heat,MJ,4700000000,4700000000
+remind,SSP5-Base,Wind,DK,production|district heat|Wood boiler,MJ,0,0
+remind,SSP5-Base,Wind,DK,production|district heat|Straw boiler,MJ,22198680000,7558200000
+remind,SSP5-Base,Wind,DK,production|district heat|Excess from fuels,MJ,0,3247200
+remind,SSP5-Base,Wind,DK,lossess|district heat|distribution losses,1/%,5,5
+remind,SSP5-Base,Wind,DK,lossess|electricity|distribution losses,%,1.42857142857143,1.42857142857143
+remind,SSP5-Base,Wind,DK,consumption|electricity|residential electricity use,kWh,8394000000,7724710000
+remind,SSP5-Base,Wind,DK,consumption|individual heat|individual heat use,MJ,53700000000,70100000000
+remind,SSP5-Base,Wind,DK,consumption|district heat|District heat use,MJ,74200000000,68800000000
+remind,SSP2-PkBudg500,Wind,DK,production|individual heat|solar heat,MJ,2500000000,5000000000
+remind,SSP2-PkBudg500,Wind,DK,production|individual heat|air heat pump,MJ,12600000000,3956400000
+remind,SSP2-PkBudg500,Wind,DK,production|individual heat|ground heat pump,MJ,37921500000,54657000000
+remind,SSP2-PkBudg500,Wind,DK,production|individual heat|biomass furnace,MJ,25170480000,26170480000
+remind,SSP2-PkBudg500,Wind,DK,production|individual heat|biomass stove,MJ,12585240000,13085240000
+remind,SSP2-PkBudg500,Wind,DK,production|individual heat|biomass pellets,MJ,12585240000,13085240000
+remind,SSP2-PkBudg500,Wind,DK,production|individual heat|sum,MJ,78191980000,63714200000
+remind,SSP2-PkBudg500,Wind,DK,production|district heat|Woodchips CHP,MJ,0,0
+remind,SSP2-PkBudg500,Wind,DK,production|district heat|Gas CHP,MJ,10244880000,4877280000
+remind,SSP2-PkBudg500,Wind,DK,production|district heat|Waste CHP,MJ,27379944000,29480400000
+remind,SSP2-PkBudg500,Wind,DK,production|district heat|Biomass,MJ,21476048400,0
+remind,SSP2-PkBudg500,Wind,DK,production|district heat|heat pumps,MJ,11186640000,17820540000
+remind,SSP2-PkBudg500,Wind,DK,production|district heat|Geothermal,MJ,4752360000,4190040000
+remind,SSP2-PkBudg500,Wind,DK,production|district heat|Solar heat,MJ,3500000000,7000000000
+remind,SSP2-PkBudg500,Wind,DK,production|district heat|Residual industrial heat,MJ,4700000000,4700000000
+remind,SSP2-PkBudg500,Wind,DK,production|district heat|Wood boiler,MJ,0,0
+remind,SSP2-PkBudg500,Wind,DK,production|district heat|Straw boiler,MJ,22198680000,7558200000
+remind,SSP2-PkBudg500,Wind,DK,production|district heat|Excess from fuels,MJ,0,3247200
+remind,SSP2-PkBudg500,Wind,DK,lossess|district heat|distribution losses,1/%,5,5
+remind,SSP2-PkBudg500,Wind,DK,lossess|electricity|distribution losses,%,1.42857142857143,1.42857142857143
+remind,SSP2-PkBudg500,Wind,DK,consumption|electricity|residential electricity use,kWh,8394000000,7724710000
+remind,SSP2-PkBudg500,Wind,DK,consumption|individual heat|individual heat use,MJ,53700000000,70100000000
+remind,SSP2-PkBudg500,Wind,DK,consumption|district heat|District heat use,MJ,74200000000,68800000000
+remind,SSP1-PkBudg500,Wind,DK,production|individual heat|solar heat,MJ,2500000000,5000000000
+remind,SSP1-PkBudg500,Wind,DK,production|individual heat|air heat pump,MJ,12600000000,3956400000
+remind,SSP1-PkBudg500,Wind,DK,production|individual heat|ground heat pump,MJ,37921500000,54657000000
+remind,SSP1-PkBudg500,Wind,DK,production|individual heat|biomass furnace,MJ,25170480000,26170480000
+remind,SSP1-PkBudg500,Wind,DK,production|individual heat|biomass stove,MJ,12585240000,13085240000
+remind,SSP1-PkBudg500,Wind,DK,production|individual heat|biomass pellets,MJ,12585240000,13085240000
+remind,SSP1-PkBudg500,Wind,DK,production|individual heat|sum,MJ,78191980000,63714200000
+remind,SSP1-PkBudg500,Wind,DK,production|district heat|Woodchips CHP,MJ,0,0
+remind,SSP1-PkBudg500,Wind,DK,production|district heat|Gas CHP,MJ,10244880000,4877280000
+remind,SSP1-PkBudg500,Wind,DK,production|district heat|Waste CHP,MJ,27379944000,29480400000
+remind,SSP1-PkBudg500,Wind,DK,production|district heat|Biomass,MJ,21476048400,0
+remind,SSP1-PkBudg500,Wind,DK,production|district heat|heat pumps,MJ,11186640000,17820540000
+remind,SSP1-PkBudg500,Wind,DK,production|district heat|Geothermal,MJ,4752360000,4190040000
+remind,SSP1-PkBudg500,Wind,DK,production|district heat|Solar heat,MJ,3500000000,7000000000
+remind,SSP1-PkBudg500,Wind,DK,production|district heat|Residual industrial heat,MJ,4700000000,4700000000
+remind,SSP1-PkBudg500,Wind,DK,production|district heat|Wood boiler,MJ,0,0
+remind,SSP1-PkBudg500,Wind,DK,production|district heat|Straw boiler,MJ,22198680000,7558200000
+remind,SSP1-PkBudg500,Wind,DK,production|district heat|Excess from fuels,MJ,0,3247200
+remind,SSP1-PkBudg500,Wind,DK,lossess|district heat|distribution losses,1/%,5,5
+remind,SSP1-PkBudg500,Wind,DK,lossess|electricity|distribution losses,%,1.42857142857143,1.42857142857143
+remind,SSP1-PkBudg500,Wind,DK,consumption|electricity|residential electricity use,kWh,8394000000,7724710000
+remind,SSP1-PkBudg500,Wind,DK,consumption|individual heat|individual heat use,MJ,53700000000,70100000000
+remind,SSP1-PkBudg500,Wind,DK,consumption|district heat|District heat use,MJ,74200000000,68800000000
+remind,SSP5-PkBudg500,Wind,DK,production|individual heat|solar heat,MJ,2500000000,5000000000
+remind,SSP5-PkBudg500,Wind,DK,production|individual heat|air heat pump,MJ,12600000000,3956400000
+remind,SSP5-PkBudg500,Wind,DK,production|individual heat|ground heat pump,MJ,37921500000,54657000000
+remind,SSP5-PkBudg500,Wind,DK,production|individual heat|biomass furnace,MJ,25170480000,26170480000
+remind,SSP5-PkBudg500,Wind,DK,production|individual heat|biomass stove,MJ,12585240000,13085240000
+remind,SSP5-PkBudg500,Wind,DK,production|individual heat|biomass pellets,MJ,12585240000,13085240000
+remind,SSP5-PkBudg500,Wind,DK,production|individual heat|sum,MJ,78191980000,63714200000
+remind,SSP5-PkBudg500,Wind,DK,production|district heat|Woodchips CHP,MJ,0,0
+remind,SSP5-PkBudg500,Wind,DK,production|district heat|Gas CHP,MJ,10244880000,4877280000
+remind,SSP5-PkBudg500,Wind,DK,production|district heat|Waste CHP,MJ,27379944000,29480400000
+remind,SSP5-PkBudg500,Wind,DK,production|district heat|Biomass,MJ,21476048400,0
+remind,SSP5-PkBudg500,Wind,DK,production|district heat|heat pumps,MJ,11186640000,17820540000
+remind,SSP5-PkBudg500,Wind,DK,production|district heat|Geothermal,MJ,4752360000,4190040000
+remind,SSP5-PkBudg500,Wind,DK,production|district heat|Solar heat,MJ,3500000000,7000000000
+remind,SSP5-PkBudg500,Wind,DK,production|district heat|Residual industrial heat,MJ,4700000000,4700000000
+remind,SSP5-PkBudg500,Wind,DK,production|district heat|Wood boiler,MJ,0,0
+remind,SSP5-PkBudg500,Wind,DK,production|district heat|Straw boiler,MJ,22198680000,7558200000
+remind,SSP5-PkBudg500,Wind,DK,production|district heat|Excess from fuels,MJ,0,3247200
+remind,SSP5-PkBudg500,Wind,DK,lossess|district heat|distribution losses,1/%,5,5
+remind,SSP5-PkBudg500,Wind,DK,lossess|electricity|distribution losses,%,1.42857142857143,1.42857142857143
+remind,SSP5-PkBudg500,Wind,DK,consumption|electricity|residential electricity use,kWh,8394000000,7724710000
+remind,SSP5-PkBudg500,Wind,DK,consumption|individual heat|individual heat use,MJ,53700000000,70100000000
+remind,SSP5-PkBudg500,Wind,DK,consumption|district heat|District heat use,MJ,74200000000,68800000000
