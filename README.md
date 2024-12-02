@@ -36,6 +36,7 @@ Implements future DK scenarios for prodution of electricity and residential heat
 
 How to use it?
 --------------
+confirmed to function with premise v2.0.2
 
 ```python
 

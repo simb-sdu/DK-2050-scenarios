@@ -12,7 +12,7 @@
     "email": "r_s@me.com"
     }],
     "dependencies": {
-        "premise": ">=2.0.1"
+        "premise": ">=2.0.2"
     },
     "ecoinvent": {
         "version": "3.9",
